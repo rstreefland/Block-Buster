@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="152dp" 
+            />
+
+        <Button
+            android:id="@+id/mainmenu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/startgame_button"
+            android:layout_alignRight="@+id/startgame_button"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginTop="90dp"
+            android:text="Load Level" />
+
+        <Button
+            android:id="@+id/startgame_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mainmenu_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="Load Random Level" />
+
+    </RelativeLayout>
+
+</FrameLayout>

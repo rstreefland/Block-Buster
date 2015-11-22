@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <uk.ac.rdg.rhys.blockbuster.GameView
+      android:id="@+id/gamearea"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"/>
+    
+    <RelativeLayout
+    	android:id="@+id/gameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+     </RelativeLayout>
+</FrameLayout>

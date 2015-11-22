@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <uk.ac.rdg.rhys.blockbuster.GameView
+      android:id="@+id/gamearea"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/gameLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/mainmenu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="51dp"
+            android:onClick="launchMainMenu"
+            android:minHeight="25dp"
+            android:text="Discard" />
+
+        <Button
+            android:id="@+id/startgame_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mainmenu_button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:minHeight="25dp"
+            android:onClick="saveLevel"
+            android:text="Save" />
+
+    </RelativeLayout>
+
+</FrameLayout>

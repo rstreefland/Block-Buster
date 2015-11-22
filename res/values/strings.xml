@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Block Buster</string>
+    <string name="mode_lose">lose</string>
+    <string name="mode_win">win</string>
+    <string name="menu_start">Start</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_resume">Resume</string>
+    
+    <string name="action_stop">Stop</string><string name="action_pause">Pause</string><string name="menu_mainmenu">Main Menu</string>
+    <string name="menu_singleplayer">Start Game</string><string name="menu_multiplayer">Multiplayer</string>
+    <string name="menu_levelbuilder">Level Crafter</string>
+    
+    <string name="menu_help">Help</string>
+    <string name="dialog_savelevel_title">Enter level name</string><string name="dialog_savelevel_message">Please enter a name for your level.</string><string name="dialog_savelevel_save">Save</string><string name="dialog_savelevel_cancel">Cancel</string>
+    <string name="dialog_stopped_title">Game stopped</string>
+    <string name="dialog_stopped_string">You stopped the game. Press the button below to start a new game</string>
+    <string name="dialog_stopped_button">New Game</string>
+    <string name="dialog_lose_title">Game Over</string>
+    <string name="dialog_lose_message">You lost! Press the button below for a new game.</string>
+    <string name="dialog_lose_button">New Game</string>
+    <string name="dialog_win_title">You won</string>
+    <string name="dialog_win_message">You won! Press the button below for a new game.</string>
+    <string name="dialog_win_button">New Game</string>
+    <string name="dialog_pause_title">Paused</string>
+    <string name="dialog_pause_message">Press the button to resume the game.</string>
+    <string name="dialog_pause_button">Resume</string>
+    <string name="help_message">Select the \'Start Game\' button to start a single player game.You can either play randomly generated levels or you can play a level built with the level builder.\n\nSelect \'Multiplayer\' to play a cooperative two player game.\n\nSelect \'Level Builder\' to create and save your own custom levels.</string>
+    <string name="help_button">Back to Main Menu</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="35dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:id="@+id/mainmenu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/startgame_button"
+            android:layout_below="@+id/startgame_button"
+            android:minWidth="300dp"
+            android:onClick="launchMultiplayer"
+            android:text="@string/menu_multiplayer" />
+
+        <Button
+            android:id="@+id/levelbuilder_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/mainmenu_button"
+            android:layout_below="@+id/mainmenu_button"
+            android:minWidth="300dp"
+            android:onClick="launchLevelBuilder"
+            android:text="@string/menu_levelbuilder" />
+
+        <Button
+            android:id="@+id/startgame_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:minWidth="300dp"
+            android:onClick="launchSinglePlayer"
+            android:text="@string/menu_singleplayer" />
+
+        <Button
+            android:id="@+id/help_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/levelbuilder_button"
+            android:layout_below="@+id/levelbuilder_button"
+            android:minWidth="300dp"
+            android:onClick="help"
+            android:text="@string/menu_help" />
+
+    </RelativeLayout>
+
+</FrameLayout>
